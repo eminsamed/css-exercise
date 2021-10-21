@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  border: 1px solid;
+  background-color: beige;
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left-box {
+  width: 300px;
+  height: 200px;
+  background-color: #62306d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* The image on the left was created in css */
+
+.middle-box {
+  width: 300px;
+  height: 200px;
+  background-color: #e3516e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Middle image was created in css */
+
+.right-box {
+  width: 300px;
+  height: 200px;
+  background-color: #191210;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*The image on the right was created in html*/
+
+.left-circle {
+  width: 90px;
+  height: 80px;
+  border-radius: 00 00 90px 90px;
+  background-color: #fade8b;
+  position: relative;
+  top: 30px;
+}
+.middle-circle {
+  width: 90px;
+  height: 80px;
+  border-radius: 90px 90px 00 00;
+  background-color: #fade8b;
+  position: relative;
+  bottom: 50px;
+}
+.right-circle {
+  width: 90px;
+  height: 80px;
+  border-radius: 00 00 90px 90px;
+  background-color: #fade8b;
+  position: relative;
+  top: 30px;
+}
+#main-quarter {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.quarter-top-left {
+  border-radius: 75px 00 00 00;
+  background-color: #51b5a9;
+  width: 75px;
+  height: 75px;
+}
+.quarter-top-right {
+  border-radius: 00 75px 00 00;
+  background-color: #fade8b;
+  width: 75px;
+  height: 75px;
+}
+.quarter-bottom-left {
+  border-radius: 00 00 00 75px;
+  background-color: white;
+  width: 75px;
+  height: 75px;
+}
+.quarter-bottom-right {
+  border-radius: 00 00 75px 00;
+  background-color: #e3516e;
+  width: 75px;
+  height: 75px;
+}
+.circle-yellow {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 15px solid #eca03d;
+  border-radius: 100px;
+}
+
+.circle-red {
+  transform: translate(50%, 50%);
+  width: 50px;
+  height: 50px;
+  background-color: #84271c;
+  border-radius: 100px;
+}
+.left-wing {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 15px solid #eca03d;
+  border-radius: 90px 90px 00 00;
+  display: flex;
+  align-items: center;
+}
+.right-wing {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 15px solid #eca03d;
+  border-radius: 00 00 90px 90px;
+}
